@@ -43,6 +43,6 @@ test java's type coercion and enforcement
 
 The implementation of predicates used in this project is inherently naive.
 Java Generics are very funky in that Java and the JVM does not retain generic information of any objects instantiated with generic data types
-__That is to say an object of type List<SomeClassKnown> when type checked will not return type List<SomeClassKnown>, rather it will return type List.__
+__That is to say an object of type List(SomeClassKnown) when type checked will not return type List(SomeClassKnown), rather it will return type List.__
 _The difference is absolutely crucial when attempting to enforce type-checking, as all Lists of any type will be accepted by our predicates._
 _The only solution is reflection, in which we get data back using an entirely new and different type of memory accessing to retrieve object information._
