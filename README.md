@@ -25,7 +25,7 @@ Add this project to any Java IDE, it will automatically compile.
 If this does not work execute the command below on the command line to build the project.
 
 ```
-javac -d bin -sourcepath src src/*
+javac -d bin -sourcepath src src/predicates/*
 ```
 
 
